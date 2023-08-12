@@ -1,0 +1,18 @@
+export const knoledges = [
+  "HTML",
+  "CSS",
+  "ReactJS",
+  "NextJS",
+  "Javascript",
+  "Typescript",
+  "Solidity",
+  "Blockchain",
+  "Web3",  "Digital Design",
+  "Marketing",
+  "Communication",
+  "Social Media",
+  "Time Management",
+  "Flexibility",
+  "Teamwork",
+  "Leadership",
+];
