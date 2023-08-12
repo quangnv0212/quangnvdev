@@ -1,7 +1,7 @@
 export const menuItems = [
   { id: 1, href: "/home-1", icon: "fa-light fa-user", text: "About" },
   { id: 2, href: "/resume", icon: "fa-light fa-file-lines", text: "Resume" },
-  { id: 3, href: "/portfolio", icon: "fa-light fa-briefcase", text: "Works" },
+  { id: 3, href: "/portfolio", icon: "fa-light fa-briefcase", text: "Projects" },
   { id: 4, href: "/blog", icon: "fa-brands fa-blogger", text: "Blogs" },
   {
     id: 5,
@@ -26,9 +26,12 @@ export const menuItemsTwo = [
 
 export const menuItemsThree = [
   { id: 1, href: "/", icon: "fa-light fa-user", text: "About" },
+  { id: 5, href: "/mystory", icon: "fa-solid fa-book", text: "My Story" },
+
   { id: 2, href: "/resumes", icon: "fa-light fa-file-lines", text: "Resume" },
-  { id: 4, href: "/portfolios", icon: "fa-light fa-briefcase", text: "Works" },
+  { id: 4, href: "/portfolios", icon: "fa-light fa-briefcase", text: "Projects" },
   { id: 5, href: "/blogs", icon: "fa-brands fa-blogger", text: "Blogs" },
+
   {
     id: 5,
     href: "/contacts",

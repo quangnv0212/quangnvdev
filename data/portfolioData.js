@@ -48,7 +48,8 @@ export const portfolioData = [
     languages: ["Typescript", "Javascript"],
     client: "1",
     previewLink: "#",
-    previewName: "#",
+    previewName: "https://ecommerce-one-pied.vercel.app/",
+
     desc: [
       ` # FACEBOOK CLONE`,
       `**Description:** This is an online social network platform that offers users a wide range of features to connect, share, and engage with one another.`,

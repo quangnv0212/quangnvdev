@@ -1,5 +1,6 @@
 import Preloader from '@/components/homes/Preloader'
 import AboutThree from '@/components/homes/about/AboutThree'
+import MyStory from '@/components/homes/about/MyStory'
 import HeaderFour from '@/components/homes/headers/HeaderFour'
 import HeaderThree from '@/components/homes/headers/HeaderThree'
 import PersonalInfoThree from '@/components/homes/personalInfo/PersonalInfoThree'
@@ -15,11 +16,10 @@ export default function page() {
         <HeaderFour/>
         <div className="container z-index-3">
             <div className="row">
-
                 <PersonalInfoThree/>
                 <div className="col-xxl-8 col-xl-8 col-lg-8">
                     <HeaderThree/>
-                    <AboutThree/>
+                    <MyStory/>
                 </div>
             </div>
             </div>
