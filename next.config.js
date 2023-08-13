@@ -26,8 +26,20 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'i.pinimg.com',
           },
+          {
+            protocol: 'https',
+            hostname: 'www.alissanguyen.dev',
+          },
         ],
       },
+      webpack: (config) => {
+        config.module.rules.push({
+          test: /\.md$/,
+          use: 'raw-loader',
+        });
+        return config;
+      },
+
 }
 
 module.exports = nextConfig

@@ -1,8 +1,7 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
+import markdownContent from './data.md'
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
-import remarkGfm from 'remark-gfm'
-
 export default function Modal({ modalContent, setModalContent }) {
   return (
     <div
@@ -39,16 +38,13 @@ export default function Modal({ modalContent, setModalContent }) {
                 alt="blog"
               />
             </div>
-
             <div className="blog-meta">
               <span className="blog-date">{modalContent?.date}</span>
               <span className="blog-cetagory">{modalContent?.category}</span>
             </div>
-
-
-
-    
-
+<>
+<ReactMarkdown>{markdownContent}</ReactMarkdown>
+</>
             <div className="h1-modal-comment-box">
               <h2 className="title">Leave a Reply</h2>
               <textarea

@@ -11,8 +11,8 @@ import HeaderFour from '@/components/homes/headers/HeaderFour'
 import HeaderThree from '@/components/homes/headers/HeaderThree'
 import PersonalInfoThree from '@/components/homes/personalInfo/PersonalInfoThree'
 export const metadata = {
-    title: 'Blog-3 || Bostami - Professional portfolio NextJS Template',
-    description: 'Discover Botami,the most impressive portfolio template for work showcase, blog'
+  title: 'Vu Quang Nguyen',
+    description: `Hi, I'm Vu Quang. I'm a Web Developer in Hanoi. I enjoy building website with elegant, performant, and maintainable frontend code`
   }
 import React from 'react'
 

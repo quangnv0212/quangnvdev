@@ -10,8 +10,8 @@ import PersonalInfoThree from '@/components/homes/personalInfo/PersonalInfoThree
 import ResumeThree from '@/components/homes/resume/ResumeThree'
 import React from 'react'
 export const metadata = {
-    title: 'Resume-3 || Bostami - Professional portfolio NextJS Template',
-    description: 'Discover Botami,the most impressive portfolio template for work showcase, blog'
+  title: 'Vu Quang Nguyen',
+    description: `Hi, I'm Vu Quang. I'm a Web Developer in Hanoi. I enjoy building website with elegant, performant, and maintainable frontend code`
   }
 export default function page() {
   return (
