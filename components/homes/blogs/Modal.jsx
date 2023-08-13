@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { useEffect } from "react";
-import markdownContent from './data.md'
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 export default function Modal({ modalContent, setModalContent }) {
   return (
@@ -43,7 +42,7 @@ export default function Modal({ modalContent, setModalContent }) {
               <span className="blog-cetagory">{modalContent?.category}</span>
             </div>
 <>
-<ReactMarkdown>{markdownContent}</ReactMarkdown>
+<ReactMarkdown>{modalContent?.desc}</ReactMarkdown>
 </>
             <div className="h1-modal-comment-box">
               <h2 className="title">Leave a Reply</h2>
