@@ -1,140 +1,66 @@
-import blog1 from "./whyblockchain.md"
+import blog1 from "./whyblockchain.md";
+import blog2 from "./writing-an-erc-20-token-contract-a-comprehensive.md";
+import blog3 from "./creating-your-own-erc-721-token.md";
+import blog4 from "./building-an-nft-marketplace-smart-contract.md";
+import blog5 from "./building-ico-smart-contract-step-step.md";
+import blog6 from "./decentralized-fundraising-with-ido-contracts.md";
+
 export const blogData = [
   {
     id: 1,
-    imgSrc: "https://i.pinimg.com/564x/f0/ad/cf/f0adcfdc5a372181f4358be3cb330af2.jpg",
+    imgSrc:
+      "https://i.pinimg.com/564x/f0/ad/cf/f0adcfdc5a372181f4358be3cb330af2.jpg",
     bgClass: "bg-prink",
     date: "27 July",
     category: "Blockchain",
     title: "Why I Use Blockchain?",
-    desc:blog1
-    // desc: `# Why I use Blockchain?
-    // Blockchain technology offers several unique features and advantages that make it attractive for various applications. Here are some key reasons why blockchain has gained significant attention:
-    
-    // 1. **Decentralization**: Traditional systems rely on a central authority to manage and validate transactions. In contrast, blockchain operates on a decentralized network of nodes, allowing for greater transparency and removing the need for a single controlling entity.
-    // 2. **Security**: Blockchain uses cryptographic techniques to secure transactions and data, making it extremely difficult to alter or tamper with information once it's recorded on the chain. This makes it valuable for applications where data integrity and security are critical.
-    // 3. **Transparency**: Every transaction recorded on a blockchain is visible to all participants in the network. This transparency helps build trust among participants, as any changes or discrepancies can be easily identified and traced.
-    // 4. **Immutability**: Once a transaction is added to a blockchain, it becomes a part of the permanent record. This immutability ensures that historical data cannot be altered without consensus from the network, making it useful for scenarios like digital provenance and supply chain tracking.
-    // 5. **Efficiency and Speed**: Blockchain can streamline processes by eliminating intermediaries and automating transactions through smart contracts. These self-executing contracts can significantly reduce the time and complexity of certain transactions.
-    // 6. **Reduced Intermediaries**: Blockchain can potentially remove the need for intermediaries in various industries such as finance, supply chain, and real estate. This can lead to cost savings and faster transactions.
-    // 7. **Global Accessibility**: Since blockchain operates on a distributed network, it can be accessed and utilized from anywhere in the world, as long as there is an internet connection. This makes it suitable for applications that require global participation.
-    // 8. **Tokenization and Digital Assets**: Blockchain enables the creation and management of digital assets through tokenization. This has opened up new possibilities for representing ownership of real-world assets, enabling fractional ownership and improved liquidity.
-    // 9. **Smart Contracts**: Smart contracts are self-executing contracts with predefined rules and conditions. They automate processes and enforce agreements without the need for intermediaries. This can simplify complex workflows and reduce the potential for disputes.
-    // 10. **Resilience**: Due to its decentralized nature, blockchain is inherently more resilient to single points of failure and cyber attacks. Even if some nodes in the network fail or are compromised, the system can continue to function.
-    // 11. **Trust and Verification**: Blockchain's transparency and cryptographic security features enhance trust among participants. This is particularly valuable when dealing with parties that may not fully trust each other.
-    // 12. **Identity Management**: Blockchain can be used for secure and tamper-resistant identity management systems, potentially reducing identity theft and fraud.
-    
-    // Despite its advantages, blockchain technology also has limitations, such as scalability issues, energy consumption concerns (especially for Proof of Work-based blockchains), and regulatory challenges. The decision to use blockchain should be based on a thorough understanding of the technology and its suitability for the specific use case.`
+    desc: blog1,
   },
   {
     id: 2,
-    imgSrc: "/assets/img/blog/blog-img-2.png",
+    imgSrc: "/assets/img/blog/erc20.jpg",
     bgClass: "bg-catkrill",
-    date: "06 October",
-    category: "Web Design",
-    title: "The Window Knows How to Say Beside You",
-    desc: ``
-
+    date: "28 July",
+    category: "Blockchain",
+    title: "Writing an ERC-20 Token Contract A Comprehensive Guide",
+    desc: blog2,
   },
   {
     id: 3,
-    imgSrc: "/assets/img/blog/blog-img-3.png",
+    imgSrc: "/assets/img/blog/erc721.png",
     bgClass: "bg-catkrill",
-    date: "12 March",
-    category: "Travel Landing",
-    title: "Everything You Need to Know About Web Accessibility.",
-    desc: ``
-
+    date: "12 July",
+    category: "Blockchain",
+    title: "Creating Your Own ERC-721 Token: A Step-by-Step Guide",
+    desc: blog3,
   },
   {
     id: 4,
-    imgSrc: "/assets/img/blog/blog-img-4.png",
+    imgSrc: "/assets/img/blog/nftmarketplace.jpg",
     bgClass: "bg-prink",
-    date: "15 November",
-    category: "Web Design",
-    title: "Top 10 Toolkits for Deep Learning in 2021.",
-    desc: ``
-
+    date: "15 July",
+    category: "Blockchain",
+    title: "Building an NFT Marketplace Smart Contract",
+    desc: blog4,
   },
   {
     id: 5,
-    imgSrc: "/assets/img/blog/blog-img-1.png",
+    imgSrc: "/assets/img/blog/ico.png",
     bgClass: "bg-prink",
-    date: "27 April",
-    category: "Inspiration",
-    title: "How to Own Your Audience by Creating an Email List.",
-    desc: ``
-
+    date: "15 July",
+    category: "Blockchain",
+    title: "Building an NFT Marketplace Smart Contract",
+    desc: blog4,
   },
   {
     id: 6,
-    imgSrc: "/assets/img/blog/blog-img-2.png",
-    bgClass: "bg-catkrill",
-    date: "06 October",
-    category: "Web Design",
-    title: "The Window Knows How to Say Beside You",
-    desc: ``
-
-  },
-  {
-    id: 7,
-    imgSrc: "/assets/img/blog/blog-img-3.png",
-    bgClass: "bg-catkrill",
-    date: "12 March",
-    category: "Travel Landing",
-    title: "Everything You Need to Know About Web Accessibility.",
-    desc: ``
-
-  },
-  {
-    id: 8,
-    imgSrc: "/assets/img/blog/blog-img-4.png",
+    imgSrc: "/assets/img/blog/ido.jpg",
     bgClass: "bg-prink",
-    date: "15 November",
-    category: "Web Design",
-    title: "Top 10 Toolkits for Deep Learning in 2021.",
-    desc: ``
-
-  },
-  {
-    id: 9,
-    imgSrc: "/assets/img/blog/blog-img-1.png",
-    bgClass: "bg-prink",
-    date: "27 April",
-    category: "Inspiration",
-    title: "How to Own Your Audience by Creating an Email List.",
-    desc: ``
-
-  },
-  {
-    id: 10,
-    imgSrc: "/assets/img/blog/blog-img-2.png",
-    bgClass: "bg-catkrill",
-    date: "06 October",
-    category: "Web Design",
-    title: "The Window Knows How to Say Beside You",
-    desc: ``
-
-  },
-  {
-    id: 11,
-    imgSrc: "/assets/img/blog/blog-img-3.png",
-    bgClass: "bg-catkrill",
-    date: "12 March",
-    category: "Travel Landing",
-    title: "Everything You Need to Know About Web Accessibility.",
-    desc: ``
-
-  },
-  {
-    id: 12,
-    imgSrc: "/assets/img/blog/blog-img-4.png",
-    bgClass: "bg-prink",
-    date: "15 November",
-    category: "Web Design",
-    title: "Top 10 Toolkits for Deep Learning in 2021.",
-    desc: ``
-
+    date: "15 July",
+    category: "Blockchain",
+    title:
+      "Decentralized Fundraising with IDO Contracts: A Comprehensive Guide",
+    desc: blog6,
   },
 ];
 export const blogDataTwo = [
