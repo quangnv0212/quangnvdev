@@ -1,23 +1,5 @@
 export const portfolioData = [
-  {
-    id: 10,
-    class: "isotop-item logo",
-    bgClass: "bg-prink",
-    imgSrc: "/assets/img/projectport.png",
-    subtitle:
-      "Frontend, ReactJS, React Hook Form",
-    title: "Portfolio",
-    target: "#portfolio-1",
-    category: ["HTML/CSS","Frontend"],
-    project: "Portfolio",
-    languages: "#",
-    client: "1",
-    previewLink: "#",
-    previewName: "https://portfolio-one-livid-22.vercel.app/",
-    desc: [
-"Another my Portfolio"
-    ],
-  },
+
   {
     id: 1,
     class: "isotop-item logo",
@@ -34,8 +16,6 @@ export const portfolioData = [
     previewLink: "#",
     previewName: "https://ecommerce-one-pied.vercel.app/",
     desc: [
-      `# SHOPEE CLONE`,
-
       `**Description:** This platform serves as an online marketplace connecting buyers and sellers, enabling smooth transactions for buying and selling various goods. With its user-friendly interface, the website offers a seamless experience for users to browse through products, place orders, and make secure online payments.`,
      `**Features:**`,
       
@@ -71,7 +51,6 @@ export const portfolioData = [
     previewName: "http://quangnvdev.click:3000/",
 
     desc: [
-      ` # FACEBOOK CLONE`,
       `**Description:** This is an online social network platform that offers users a wide range of features to connect, share, and engage with one another.`,
       `**Note:** First time rendering may have some errors, I'm trying to fix it`,
 
@@ -89,6 +68,67 @@ export const portfolioData = [
       ` - Database: MongoDB.`,
     ],
   },
+  {
+    id: 10,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/projectport.png",
+    subtitle:
+      "Frontend, ReactJS, React Hook Form",
+    title: "Portfolio",
+    target: "#portfolio-1",
+    category: ["HTML/CSS","Frontend"],
+    project: "Portfolio",
+    languages: "#",
+    client: "1",
+    previewLink: "#",
+    previewName: "https://portfolio-one-livid-22.vercel.app/",
+    desc: [
+"Another my Portfolio"
+    ],
+  },
+  {
+    id: 5,
+    class: "isotop-item design logo",
+    bgClass: "bg-prink",
+    imgSrc: "https://portfolio-one-livid-22.vercel.app/static/media/project2.199ccfa641a519fdf61c.png",
+    subtitle: "Ecommerce, Education, Frontend, ReactJS, React Hook Form, Ant Design",
+    title: "Nodemy Class",
+    target: "#portfolio-1",
+    category: ["HTML/CSS","Frontend","Backend"],
+    project: "Nodemy Class",
+    languages: ["Photoshop", "Figma"],
+    client: "1",
+    previewLink: "#",
+    previewName: "www.envato.com",
+    desc: [
+      `**Welcome to Nodemy - Learn, Teach, and Explore:**`,
+
+      `Nodemy is a vibrant online learning platform that empowers both learners and instructors to connect, learn, and grow. Our platform is designed to offer a wide range of courses taught by experts from around the world, making learning accessible to anyone, anywhere. Here are some of the key functionalities that Nodemy provides:`,
+      
+      `1. **Diverse Course Catalog:**`,
+      `Explore thousands of courses across various subjects, from programming and business to arts and personal development. Our diverse catalog ensures there's something for everyone, whether you're a beginner or an advanced learner.`,
+      `2. **Expert Instructors:**`,
+      `Our courses are taught by industry experts, professionals, and educators who are passionate about sharing their knowledge. You'll learn from individuals with real-world experience, gaining practical insights that go beyond theory.`,
+      `3. **Lifetime Access:**`,
+      `When you enroll in a course, you gain lifetime access to the course materials, videos, quizzes, and assignments. This allows you to learn at your own pace and revisit the content whenever you need it.`,
+      `4. **Interactive Learning:**`,
+      `Engage with course content through video lectures, quizzes, assignments, and discussions. Our platform fosters interactive learning, enabling you to apply what you've learned and receive feedback from instructors and peers.`,
+      `5. **Skill Assessment:**`,
+      `Many courses offer skill assessments and certificates upon completion. These certificates can be a valuable addition to your resume, showcasing your newly acquired skills to potential employers.`,
+      `6. **Flexible Learning:**`,
+      `Learn on your own schedule. Nodemy courses are available 24/7, allowing you to fit learning into your busy life. Whether you're a full-time student, a professional, or a parent, you can choose when and where to learn.`,
+      `7. **Teaching Opportunities:**`,
+      `Are you an expert in your field? Nodemy offers a platform for instructors to create and share their courses with a global audience. Teach what you know and earn while doing it.`,
+      `8. **Student Community:**`,
+      `Connect with fellow learners through course discussions, forums, and Q&A sections. Collaborate, share insights, and learn from others' experiences.`,
+      `9. **Search and Recommendations:**`,
+      `Easily find courses that match your interests with our search and recommendation features. Browse top-rated courses, bestsellers, and new releases.`,
+      
+      `At Nodemy, we believe in the power of learning to transform lives. Whether you're looking to upgrade your skills, explore a new hobby, or start a new career, our platform provides the tools and resources you need to succeed. Join our community of learners and instructors today to embark on your learning journey!`,
+    ],
+  },
+
   {
     id: 3,
     class: "isotop-item logo mockup",
@@ -143,47 +183,7 @@ export const portfolioData = [
       `In summary, our website is an ideal stop for film enthusiasts. From a diverse movie list to information about renowned actors, we hope you'll enjoy exploring and searching on our website.`,
     ],
   },
-  {
-    id: 5,
-    class: "isotop-item design logo",
-    bgClass: "bg-prink",
-    imgSrc: "https://portfolio-one-livid-22.vercel.app/static/media/project2.199ccfa641a519fdf61c.png",
-    subtitle: "Ecommerce, Education, Frontend, ReactJS, React Hook Form, Ant Design",
-    title: "Nodemy Class",
-    target: "#portfolio-1",
-    category: ["HTML/CSS","Frontend","Backend"],
-    project: "Nodemy Class",
-    languages: ["Photoshop", "Figma"],
-    client: "1",
-    previewLink: "#",
-    previewName: "www.envato.com",
-    desc: [
-      `**Welcome to Nodemy - Learn, Teach, and Explore:**`,
 
-      `Nodemy is a vibrant online learning platform that empowers both learners and instructors to connect, learn, and grow. Our platform is designed to offer a wide range of courses taught by experts from around the world, making learning accessible to anyone, anywhere. Here are some of the key functionalities that Nodemy provides:`,
-      
-      `1. **Diverse Course Catalog:**`,
-      `Explore thousands of courses across various subjects, from programming and business to arts and personal development. Our diverse catalog ensures there's something for everyone, whether you're a beginner or an advanced learner.`,
-      `2. **Expert Instructors:**`,
-      `Our courses are taught by industry experts, professionals, and educators who are passionate about sharing their knowledge. You'll learn from individuals with real-world experience, gaining practical insights that go beyond theory.`,
-      `3. **Lifetime Access:**`,
-      `When you enroll in a course, you gain lifetime access to the course materials, videos, quizzes, and assignments. This allows you to learn at your own pace and revisit the content whenever you need it.`,
-      `4. **Interactive Learning:**`,
-      `Engage with course content through video lectures, quizzes, assignments, and discussions. Our platform fosters interactive learning, enabling you to apply what you've learned and receive feedback from instructors and peers.`,
-      `5. **Skill Assessment:**`,
-      `Many courses offer skill assessments and certificates upon completion. These certificates can be a valuable addition to your resume, showcasing your newly acquired skills to potential employers.`,
-      `6. **Flexible Learning:**`,
-      `Learn on your own schedule. Nodemy courses are available 24/7, allowing you to fit learning into your busy life. Whether you're a full-time student, a professional, or a parent, you can choose when and where to learn.`,
-      `7. **Teaching Opportunities:**`,
-      `Are you an expert in your field? Nodemy offers a platform for instructors to create and share their courses with a global audience. Teach what you know and earn while doing it.`,
-      `8. **Student Community:**`,
-      `Connect with fellow learners through course discussions, forums, and Q&A sections. Collaborate, share insights, and learn from others' experiences.`,
-      `9. **Search and Recommendations:**`,
-      `Easily find courses that match your interests with our search and recommendation features. Browse top-rated courses, bestsellers, and new releases.`,
-      
-      `At Nodemy, we believe in the power of learning to transform lives. Whether you're looking to upgrade your skills, explore a new hobby, or start a new career, our platform provides the tools and resources you need to succeed. Join our community of learners and instructors today to embark on your learning journey!`,
-    ],
-  },
   {
     id: 6,
     class: "isotop-item mockup design",

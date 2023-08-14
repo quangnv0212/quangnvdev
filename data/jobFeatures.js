@@ -42,6 +42,13 @@ export const items = [
     description: "Modern UI libraries like TailwindCSS, Headless UI, Framer Motion, etc. to create beautiful, responsive, and accessible web apps quickly.",
     bg: "bg-catkrill",
   },
+  {
+    id: 7,
+    icon: "/assets/img/photograph.svg",
+    title: "Blockchain Developer",
+    description: "Build a Dapp using Solidity to provide transparency, security, and autonomy in delivering services and online interactions for users",
+    bg: "bg-prink",
+  },
   // {
   //   id: 4,
   //   icon: "/assets/img/webdev.svg",

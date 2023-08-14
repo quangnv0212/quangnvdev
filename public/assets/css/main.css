@@ -3357,7 +3357,7 @@ background: linear-gradient(97deg, #9CA5AA 0%, #969d6e 100%);
 .portfolio-modal-box .modal-dialog .modal-content .modal-body .blog-title {
   font-size: 28px;
   text-align: center;
-  color: #9ca5aa;
+  color: #d63384;
   margin-bottom: 35px;
 }
 @media (max-width: 767px) {
@@ -3436,23 +3436,23 @@ background: linear-gradient(97deg, #9CA5AA 0%, #969d6e 100%);
   }
 }
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn:hover {
-  color: #9ca5aa;
+  color: #d63384;
 }
 .page-wrapper-2 .fillter-btn-wrap .fillter-btn.is-checked {
-  color: #9ca5aa;
+  color: #d63384;
 }
 .page-wrapper-2 .fillter-item .item-title:hover {
-  color: #9ca5aa;
+  color: #d63384;
 }
 
 .home-3 .fillter-btn-wrap .fillter-btn:is(.is-checked) {
-  color: #9ca5aa;
+  color: #d63384;
 }
 .home-3 .fillter-btn-wrap .fillter-btn:hover {
-  color: #9ca5aa;
+  color: #d63384;
 }
 .home-3 .fillter-item .item-title:hover {
-  color: #9ca5aa;
+  color: #d63384;
 }
 
 /*
@@ -3684,7 +3684,7 @@ background: linear-gradient(97deg, #9CA5AA 0%, #969d6e 100%);
 .h1-modal-box .modal-dialog .modal-content .modal-body .h1-modal-comment-item {
   display: flex;
   gap: 30px;
-  border: 1px solid #9ca5aa;
+  border: 1px solid #f95054;
   border-radius: 15px;
   padding: 20px;
   margin-top: 50px;
@@ -3766,7 +3766,7 @@ background: linear-gradient(97deg, #9CA5AA 0%, #969d6e 100%);
   background-color: #9ca5aa;
 }
 .page-wrapper-2 .blog-slider-single .blog-title:hover {
-  color: #9ca5aa;
+  color: #f95054;
 }
 
 .home-3 .blog-slider-wrap .blog-progation span {
@@ -3776,7 +3776,7 @@ background: linear-gradient(97deg, #9CA5AA 0%, #969d6e 100%);
   background-color: #f95054;
 }
 .home-3 .blog-slider-single .blog-title:hover {
-  color: #9ca5aa;
+  color: #f95054;
 }
 
 /*

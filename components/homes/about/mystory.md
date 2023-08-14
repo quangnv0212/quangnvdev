@@ -6,7 +6,7 @@ I am Vu Quang, 22 years old, student of Foreign Trade University. I used to be t
 
 ![122133478_1588952607942971_2028891240499212590_n.jpg](/assets/img/forum-chay.jpg)
 
-I was initially someone who thrived on content creation, staying ahead of social media trends, and taking responsibility in managing over 7 university pages with tens of thousands of followers. While my peers were enjoying moments with milk tea, I felt I had achieved a distinct level of success (only a joke lol 🤣🤣).
+I was initially someone who thrived on content creation, staying ahead of social media trends, and taking responsibility in managing more than 7 pages with thousand of followers on Facebook. While my peers were enjoying moments with sleep, milk tea, I felt I had achieved a distinct level of success (only a joke lol 🤣🤣).
 
 Yet, in 2021, with the prolonged lockdown, my normal life underwent a complete transformation. I embarked on a new passion: coding. Sitting still to learn new programming languages, delving into advanced technologies, I truly immersed myself in the digital world.
 
