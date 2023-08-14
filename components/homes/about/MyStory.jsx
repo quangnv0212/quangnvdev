@@ -41,7 +41,7 @@ export default function MyStory() {
         </div>
       </div>
       <div className="story-list">
-      <Story img={"/assets/img/my-story-1.jpeg"} front={"I haven't graduated yet"} back={"Don't worry, it will be soon"}/>
+      <Story img={"/assets/img/my-story-1.jpeg"} front={"My favorite subject was Math"} back={"I love it in high school. I guess it's the asian trait in me."}/>
       <Story img={"/assets/img/classic-rock.jpeg"} front={"I love Classic Rock"} back={"I know a lot of music from 60s to 90s"}/>
       <Story img={"/assets/img/guns n roses.jpeg"} front={"I've been to Guns n Roses show"} back={"That's my motivation to meet other music legends"}/>
       <Story img={"/assets/img/kinhdich.jpeg"} front={"I can do fortune telling"} back={"It's a long story"}/>
