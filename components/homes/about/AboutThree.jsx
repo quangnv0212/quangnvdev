@@ -32,19 +32,19 @@ export default function AboutThree() {
         <div className="bostami-what-do-wrap mb-30">
           <div className="row">
             {items.map((elm, i) => (
-              <div key={i} className="col-xxl-6 col-xl-6 col-lg-6 ">
+              <div key={i} className=" ">
                 <div className={`bostami-what-do-item ${elm.bg}`}>
                   <div className="icon" style={{ margin: "0 auto" }}>
-                    <Image
+                    {/* <Image
                       height={40}
                       width={160}
                       style={{ margin: "0 auto" }}
                       alt="about"
                       src={elm.icon}
-                    />
+                    /> */}
                   </div>
                   <div className="text">
-                    <h4 className="title">{elm.title}</h4>
+                    {/* <h4 className="title">{elm.title}</h4> */}
                     <p>{elm.description}</p>
                   </div>
                 </div>

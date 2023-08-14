@@ -1,5 +1,24 @@
 export const portfolioData = [
   {
+    id: 10,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/projectport.png",
+    subtitle:
+      "Frontend, ReactJS, React Hook Form",
+    title: "Portfolio",
+    target: "#portfolio-1",
+    category: ["HTML/CSS","Frontend"],
+    project: "Portfolio",
+    languages: "#",
+    client: "1",
+    previewLink: "#",
+    previewName: "https://portfolio-one-livid-22.vercel.app/",
+    desc: [
+"Another my Portfolio"
+    ],
+  },
+  {
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
@@ -10,7 +29,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["HTML/CSS","Frontend"],
     project: "Shopee Clone",
-    languages: ["Typescript", "Javascript"],
+    languages: "https://github.com/quangnv0212/Ecommerce",
     client: "1",
     previewLink: "#",
     previewName: "https://ecommerce-one-pied.vercel.app/",
@@ -40,19 +59,22 @@ export const portfolioData = [
     class: "isotop-item design mockup",
     bgClass: "bg-catkrill",
     imgSrc: "https://store-images.s-microsoft.com/image/apps.16054.9007199266245907.b029bd80-381a-4869-854f-bac6f359c5c9.07640ca7-c177-4ef3-8d87-b4b06865f65b",
-    subtitle: "Travel Landing , UX/UI",
+    subtitle: "ReactJS, ExpressJS, Social Media",
     title: "Facebook",
     target: "#portfolio-1",
     category: ["HTML/CSS","Frontend","Backend"],
     project: "Facebook Clone",
-    languages: ["Typescript", "Javascript"],
+    languages: "https://github.com/quangnv0212/facebook-clone-project",
+
     client: "1",
     previewLink: "#",
-    previewName: "https://ecommerce-one-pied.vercel.app/",
+    previewName: "http://quangnvdev.click:3000/",
 
     desc: [
       ` # FACEBOOK CLONE`,
       `**Description:** This is an online social network platform that offers users a wide range of features to connect, share, and engage with one another.`,
+      `**Note:** First time rendering may have some errors, I'm trying to fix it`,
+
       `**Features:**`,
       `- Authentication: The platform includes registration, login, and password recovery functionalities. Users can post statuses, comment on posts, and express their emotions with options like Like, Love, Angry, Haha, and Wow.`,
       ` - Provides a dating feature for users to explore.`,
@@ -70,17 +92,18 @@ export const portfolioData = [
   {
     id: 3,
     class: "isotop-item logo mockup",
-    bgClass: "bg-catkrill",
+    bgClass: "bg-prink",
     imgSrc: "https://portfolio-one-livid-22.vercel.app/static/media/project7.3195395ceea23cd40082.png",
     subtitle: "Landing Page, HTML5, CSS3",
     title: "Bake Store",
     target: "#portfolio-1",
     category: ["HTML/CSS"],
     project: "Bake Store",
-    languages: ["Photoshop", "Figma"],
+    languages: "https://github.com/quangnv0212/Bake",
+
     client: "1",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "https://bake-lyart.vercel.app",
     desc: [
       `Landing Page for Bake Store`,
     ],
@@ -88,18 +111,19 @@ export const portfolioData = [
   {
     id: 4,
     class: "isotop-item mockup",
-    bgClass: "bg-prink",
+    bgClass: "bg-catkrill",
     imgSrc: "https://portfolio-one-livid-22.vercel.app/static/media/project8.64bc514e26b595179ef0.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Packaging Box",
+    subtitle: "Frontend, ReactJS, UX/UI",
+    title:"Movie Project",
     target: "#portfolio-1",
     category: ["HTML/CSS","Frontend"],
 
-    project: "website",
-    languages: ["Photoshop", "Figma"],
+    project: "Movie Project",
+    languages: "https://github.com/quangnv0212/Movie-Project",
+
     client: "Envato",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "https://movie-project-blush-zeta.vercel.app/",
     desc: [
 
       `Welcome to our website - where you can explore a vast collection of movies and talented actors. Our website is designed to provide you with an easy browsing and discovery experience, featuring a diverse list of favorite films and detailed information about actors.`,
@@ -170,7 +194,8 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Mockup", "Graphic Design"],
     project: "Restaurant Landing Page",
-    languages: ["HTML5", "CSS3"],
+    languages: "",
+
     client: "1",
     previewLink: "#",
     previewName: "www.envato.com",
@@ -182,18 +207,19 @@ export const portfolioData = [
   {
     id: 6,
     class: "isotop-item mockup design",
-    bgClass: "bg-catkrill",
+    bgClass: "bg-prink",
     imgSrc: "https://scontent.fsgn2-5.fna.fbcdn.net/v/t39.30808-6/366676326_3619529868276517_2729778132936887132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=I6enuG5g6AYAX_RGunp&_nc_ht=scontent.fsgn2-5.fna&oh=00_AfCpOET78bymsFabJ33JJbCgYH8BvFMfsdJ040aDeQFAjw&oe=64DBC7F9",
-    subtitle: "HTML5, CSS3",
+    subtitle: "HTML5, CSS3, Frontend, ReactJS, Web3",
     title: "NFT MarketPlace",
     target: "#portfolio-1",
     category: ["HTML/CSS","Frontend","Solidity","Web3"],
 
     project: "Restaurant Landing Page",
-    languages: ["HTML5", "CSS3","Solidity"],
+    languages: "https://github.com/quangnv0212/restaurant-landing-page",
+
     client: "1",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "https://restaurant-landing-page-navy.vercel.app/",
     desc: [
       
       `Landing Page for a Restaurant`,

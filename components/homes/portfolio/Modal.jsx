@@ -50,7 +50,7 @@ export default function Modal({ modalContent, setModalContent }) {
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-code"></i>
-                    <Link href={modalContent?.previewName||'#'}>Source Code</Link>
+                    <Link href={modalContent?.languages||'#'}>Source Code</Link>
                   </h3>
                 </div>
                 <div className="col-md-6">
