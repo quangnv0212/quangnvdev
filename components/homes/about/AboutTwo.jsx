@@ -20,7 +20,7 @@ export default function AboutTwo() {
       <div className="page-tilte-2-wrap">
         <div className="row">
           <div className="col-12">
-            <div className="bostami-page-title-wrap mb-40">
+            <div className="mb-40 bostami-page-title-wrap">
               <h2 className="page-title">About Me</h2>
             </div>
           </div>
@@ -41,7 +41,7 @@ export default function AboutTwo() {
           </div>
 
           <div className="col-lg-8 col-md-12">
-            <div className="bostami-parsonal-info-wrap mb-40">
+            <div className="mb-40 bostami-parsonal-info-wrap">
               <h4 className="bostami-parsonal-info-title">Who am i?</h4>
               <p className="bostami-parsonal-info-bio-text">{bioData.descOne}</p>
 
@@ -106,10 +106,10 @@ export default function AboutTwo() {
         </div>
       </div>
 
-      <div className="client-2-wrap bg-light-white-2 pt-40 pb-65">
+      <div className="pt-40 client-2-wrap bg-light-white-2 pb-65">
         <div className="row">
           <div className="col-12">
-            <div className="bostami-section-title-wrap text-center mb-35">
+            <div className="text-center bostami-section-title-wrap mb-35">
               <h2 className="section-title">Clients</h2>
             </div>
           </div>
@@ -166,9 +166,6 @@ export default function AboutTwo() {
         </div>
       </div>
 
-      <div className="footer-copyright text-center pt-25 pb-25">
-        <span>© {new Date().getFullYear()} All Rights Reserved by ib-themes.</span>
-      </div>
     </div>
   );
 }

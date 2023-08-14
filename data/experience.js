@@ -1,7 +1,7 @@
 export const experiences = [
   {
     id: 1,
-    bgClass: "bg-catkrill",
+    bgClass: "bg-prink",
     session: "2022 - 2023",
     role: "Web Developer",
     company: "Nodemy Vietnam",

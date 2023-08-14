@@ -1,7 +1,7 @@
 export const education = [
   {
     id: 1,
-    bgClass: "bg-prink",
+    bgClass: "bg-catkrill",
     session: "2016-2019",
     cardTitle: "Specialized Class in Mathematics",
     cardSubtitleSecondary: "Hà Tĩnh High School for the Gifted",

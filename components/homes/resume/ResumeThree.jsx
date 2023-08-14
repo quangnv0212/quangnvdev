@@ -18,7 +18,7 @@ export default function ResumeThree() {
       <div className="section-wrapper pl-60 pr-60 mb-60">
         <div className="row">
           <div className="col-xl-6 col-lg-7">
-            <div className="bostami-section-title-wrap mb-20">
+            <div className="mb-20 bostami-section-title-wrap">
               <h4 className="section-title">
                 <Image
                   width={38}
@@ -48,7 +48,7 @@ export default function ResumeThree() {
           </div>
 
           <div className="col-xl-6 col-lg-5">
-            <div className="bostami-section-title-wrap mb-20">
+            <div className="mb-20 bostami-section-title-wrap">
               <h4 className="section-title">
                 <Image
                   width={30}
@@ -79,7 +79,7 @@ export default function ResumeThree() {
       <div className="section-wrapper bg-light-white-2 pt-70 pb-60 pl-60 pr-60">
         <div className="row">
           <div className="col-xl-6 col-lg-7">
-            <div className="bostami-section-title-wrap mb-20">
+            <div className="mb-20 bostami-section-title-wrap">
               <h4 className="section-title">Extra Curricular Activities</h4>
             </div>
 
@@ -96,15 +96,15 @@ export default function ResumeThree() {
             </h6>
             <p className="py-3">{elm.des}</p>
 
-            <p className="card-text font-bold">{elm.locatopn}</p>
+            <p className="font-bold card-text">{elm.locatopn}</p>
           </div>
         ))}
             </div>
           </div>
 
           <div className="col-xl-6 col-lg-5">
-            <div className="bostami-section-title-wrap mb-20">
-              <h4 className="section-title">Knowledges</h4>
+            <div className="mb-20 bostami-section-title-wrap">
+              <h4 className="section-title">Skills</h4>
             </div>
 
             <div className="knowledeges-item-wrap">
@@ -118,11 +118,6 @@ export default function ResumeThree() {
         </div>
       </div>
 
-      <div className="footer-copyright text-center pt-25 pb-25">
-        <span>
-          © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-        </span>
-      </div>
     </div>
   );
 }

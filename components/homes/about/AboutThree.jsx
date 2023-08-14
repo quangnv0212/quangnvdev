@@ -32,7 +32,7 @@ export default function AboutThree() {
         <div className="bostami-what-do-wrap mb-30">
           <div className="row">
             {items.map((elm, i) => (
-              <div key={i} className=" ">
+              <div key={i} className="">
                 <div className={`bostami-what-do-item ${elm.bg}`}>
                   <div className="icon" style={{ margin: "0 auto" }}>
                     {/* <Image
@@ -55,7 +55,7 @@ export default function AboutThree() {
       </div>
 
       <div className="section-wrapper bg-light-white-2 pt-45 pb-60 pl-60 pr-60">
-        <div className="bostami-section-title-wrap text-center mb-50">
+        <div className="text-center bostami-section-title-wrap mb-50">
           <h3 className="section-title">Skills</h3>
         </div>
 
@@ -108,11 +108,6 @@ export default function AboutThree() {
         </div>
       </div>
 
-      <div className="footer-copyright text-center pt-25 pb-25">
-        <span>
-          © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-        </span>
-      </div>
     </div>
   );
 }

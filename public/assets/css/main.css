@@ -2693,7 +2693,7 @@ background: linear-gradient(97deg, #9CA5AA 0%, #969d6e 100%);
   text-transform: capitalize;
   color: var(--common-black);
   font-family: "Poppins", sans-serif;
-  background-color: var(--light-white);
+  background-color: #A7B3B8;
   border-radius: 5px;
   padding: 4px 20px;
 }

@@ -107,11 +107,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="footer-copyright text-center bg-light-white-2 pt-25 pb-25">
-            <span>
-              © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-            </span>
-          </div>
+
         </div>
       </div>
       <Modal modalContent={modalContent} setModalContent={setModalContent} />

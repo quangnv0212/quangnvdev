@@ -14,7 +14,7 @@ export default function ResumeTwo() {
           <div className="page-tilte-2-wrap">
             <div className="row">
               <div className="col-12">
-                <div className="bostami-page-title-wrap mb-40">
+                <div className="mb-40 bostami-page-title-wrap">
                   <h2 className="page-title">Resume</h2>
                 </div>
               </div>
@@ -24,7 +24,7 @@ export default function ResumeTwo() {
           <div className="bostami-resume-2">
             <div className="row">
               <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mb-20 bostami-section-title-wrap">
                   <h4 className="section-title">
                     <Image
                       width={38}
@@ -55,7 +55,7 @@ export default function ResumeTwo() {
               </div>
 
               <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mb-20 bostami-section-title-wrap">
                   <h4 className="section-title">
                     <Image
                       width={30}
@@ -84,7 +84,7 @@ export default function ResumeTwo() {
               </div>
 
               <div className="col-xl-4 col-lg-6 col-md-6">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mb-20 bostami-section-title-wrap">
                   <h4 className="section-title">
                     <Image
                       width={24}
@@ -114,10 +114,10 @@ export default function ResumeTwo() {
             </div>
           </div>
 
-          <div className="section-wrapper border-redius-20 bg-light-white-2 mt-20  pt-70 pb-60 pl-30 pr-30">
+          <div className="mt-20 section-wrapper border-redius-20 bg-light-white-2 pt-70 pb-60 pl-30 pr-30">
             <div className="row">
               <div className="col-xl-6 col-lg-7">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mb-20 bostami-section-title-wrap">
                   <h4 className="section-title">Extra Curricular Activities</h4>
                 </div>
 
@@ -145,7 +145,7 @@ export default function ResumeTwo() {
               </div>
 
               <div className="col-xl-6 col-lg-5">
-                <div className="bostami-section-title-wrap mb-20">
+                <div className="mb-20 bostami-section-title-wrap">
                   <h4 className="section-title">Knowledges</h4>
                 </div>
 
@@ -160,11 +160,7 @@ export default function ResumeTwo() {
             </div>
           </div>
 
-          <div className="footer-copyright text-center pt-25 pb-25">
-            <span>
-              © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-            </span>
-          </div>
+
         </div>
       </div>
     </div>

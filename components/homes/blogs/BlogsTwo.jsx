@@ -32,7 +32,7 @@ export default function BlogsTwo() {
             <div className="page-tilte-2-wrap">
               <div className="row">
                 <div className="col-12">
-                  <div className="bostami-page-title-wrap mb-40">
+                  <div className="mb-40 bostami-page-title-wrap">
                     <h2 className="page-title">blog</h2>
                   </div>
                 </div>
@@ -121,11 +121,7 @@ export default function BlogsTwo() {
               </div>
             </div>
 
-            <div className="footer-copyright text-center pt-25 pb-25 bg-light-white-2 border-redius-20">
-              <span>
-                © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-              </span>
-            </div>
+
           </div>
         </div>
       </div>

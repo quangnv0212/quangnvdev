@@ -31,8 +31,8 @@ export default function PortfolioTwo() {
             <div className="page-tilte-2-wrap">
               <div className="row">
                 <div className="col-12">
-                  <div className="bostami-page-title-wrap mb-40">
-                    <h2 className="page-title mb-0">Portfolio</h2>
+                  <div className="mb-40 bostami-page-title-wrap">
+                    <h2 className="mb-0 page-title">Portfolio</h2>
                   </div>
                 </div>
               </div>
@@ -114,11 +114,6 @@ export default function PortfolioTwo() {
               </div>
             </div>
 
-            <div className="footer-copyright text-center pt-25 pb-25 bg-light-white-2 border-redius-20">
-              <span>
-                © {new Date().getFullYear()} All Rights Reserved by ib-themes.
-              </span>
-            </div>
           </div>
         </div>
       </div>
