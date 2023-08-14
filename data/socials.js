@@ -15,7 +15,7 @@ export const socialMediaData = [
     id: 3,
     className: "fa-brands fa-instagram",
     href: "#",
-    color: "#e12a72",
+    color: "#969d6e",
   },
   {
     id: 4,

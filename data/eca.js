@@ -2,7 +2,7 @@ export const eca = [
     {
         id: 1,
         bgClass: "bg-prink",
-        session: "2019-2020",
+        session: "2019-2021",
         cardTitle: "Deputy Head of Media and Communication Department ",
         cardSubtitleSecondary: "FTU Forum (Foreign Trade University Community Forum)",
         locatopn: "Ha Noi, Vietnam",

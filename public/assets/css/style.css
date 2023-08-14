@@ -49,7 +49,7 @@ body {
 }
 
 .title span {
-    color: #fa5252ef;
+    color: #9ca5aaef;
 }
 
 .btn {
@@ -87,7 +87,7 @@ body {
 .main-title {
     font-size: 45px;
     text-transform: capitalize;
-    color: #fa5252;
+    color: #9ca5aa;
     font-weight: 600;
 }
 .bg-shape {
@@ -195,7 +195,7 @@ body {
 
 .buy-title span {
     display: inline-block;
-    color: #fa5252;
+    color: #9ca5aa;
     text-transform: uppercase;
 }
 
@@ -214,7 +214,7 @@ body {
     transition: 0.3s;
 }
 .copy-right a:hover {
-    color: #fa5252;
+    color: #9ca5aa;
 }
 
 /* // X-Small devices (portrait phones, less than 576px) */

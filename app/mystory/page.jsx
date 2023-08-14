@@ -4,6 +4,7 @@ import MyStory from '@/components/homes/about/MyStory'
 import HeaderFour from '@/components/homes/headers/HeaderFour'
 import HeaderThree from '@/components/homes/headers/HeaderThree'
 import PersonalInfoThree from '@/components/homes/personalInfo/PersonalInfoThree'
+import "./mystory.css"
 import React from 'react'
 export const metadata = {
   title: 'Vu Quang Nguyen',

@@ -30,6 +30,7 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'www.alissanguyen.dev',
           },
+
         ],
       },
       webpack: (config) => {

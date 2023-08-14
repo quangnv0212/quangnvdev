@@ -1,4 +1,4 @@
-import blog1 from "./why-i-use-blockchain.md"
+import blog1 from "./whyblockchain.md"
 export const blogData = [
   {
     id: 1,
