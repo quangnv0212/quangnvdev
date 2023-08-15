@@ -50,14 +50,14 @@ export default function MyStory() {
       <Story img={"/assets/img/anhngua-3.jpeg"} front={"I tried to learn electric guitar"} back={"It broke when I moved house and still don't have money to fix it"}/>
       <Story img={"/assets/img/mycay.jpeg"} front={"I really like spicy food"} back={"I can eat spicy noodles level 7"}/>
       </div>
-      {/* <div className="section-wrapper pl-60 pr-60 pt-60 pb-60">
+      <div className="section-wrapper pl-60 pr-60 pt-60 pb-60">
         <div className="bostami-page-title-wrap mb-15">
           <h2 className="page-title">My Story</h2>
         </div>
         <div>
           <ReactMarkdown>{contentmarkdown}</ReactMarkdown>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 }
