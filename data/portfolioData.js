@@ -48,7 +48,7 @@ export const portfolioData = [
 
     client: "1",
     previewLink: "#",
-    previewName: "http://quangnvdev.click:3000/",
+    previewName: "http://103.79.142.191:3000/",
 
     desc: [
       `**Description:** This is an online social network platform that offers users a wide range of features to connect, share, and engage with one another.`,
