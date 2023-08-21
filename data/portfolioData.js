@@ -222,7 +222,7 @@ export const portfolioData = [
     previewName: "https://restaurant-landing-page-navy.vercel.app/",
     desc: [
       
-      `Landing Page for a Restaurant`,
+      ``,
     ],
   },
 

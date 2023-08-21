@@ -21,11 +21,18 @@ export const items = [
     description:"Deployment to platforms such as Vercel, Netlify, and Cloudflare to leverage caching and firewalls at the edge.",
     bg: "bg-prink",
   },
-  {
+  // {
+  //   id: 4,
+  //   icon: "/assets/img/design.svg",
+  //   title: "Frontend Developer",
+  //   description:"Creating JAM Stack frontend applications that integrate with modern headless content management systems (CMS) like Contentful and payment APIs like Stripe",
+  //   bg: "bg-catkrill",
+  // },
+    {
     id: 4,
     icon: "/assets/img/design.svg",
     title: "Frontend Developer",
-    description:"Creating JAM Stack frontend applications that integrate with modern headless content management systems (CMS) like Contentful and payment APIs like Stripe",
+    description:"Deploy a ReactJS, NextJS or NodeJS application by Virtual Private Server (VPS) using Docker.        ",
     bg: "bg-catkrill",
   },
   {
