@@ -97,8 +97,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["HTML/CSS","Frontend","Backend"],
     project: "Nodemy Class",
-    languages: ["Photoshop", "Figma"],
-    client: "1",
+    client: "5",
     previewLink: "#",
     previewName: "www.envato.com",
     desc: [

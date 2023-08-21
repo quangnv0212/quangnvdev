@@ -47,12 +47,15 @@ export default function Modal({ modalContent, setModalContent }) {
                     Team Size : <span>{modalContent?.client}</span>
                   </h3>
                 </div>
-                <div className="col-md-6">
+                {
+                 modalContent?.languages&&   <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-code"></i>
                     <Link href={modalContent?.languages||'#'}>Source Code</Link>
                   </h3>
                 </div>
+                }
+     
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
