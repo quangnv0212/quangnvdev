@@ -29,7 +29,11 @@ const nextConfig = {
           {
             protocol: 'https',
             hostname: 'www.alissanguyen.dev',
-          },
+        },
+        {
+          protocol: 'https',
+          hostname: 'scontent-hkg4-1.xx.fbcdn.net',
+        },
 
         ],
       },

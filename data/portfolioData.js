@@ -1,5 +1,38 @@
 export const portfolioData = [
-
+  {
+    id: 20,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/391676183_3663078907254946_1125358383902849235_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=_cseeWZj_YwAX_6EIYn&_nc_ht=scontent-hkg4-1.xx&_nc_e2o=s&oh=00_AfBIwx0VC136vqe-vaWpP6AfkcRG6Q5xWkrS74pSoDkxvg&oe=65358832",
+    subtitle:
+      "Ecommerce, Frontend, ReactJS, React Hook Form, Vitest, Storybook",
+    title: "Social Network App",
+    target: "#portfolio-1",
+    category: ["HTML/CSS","Frontend","Backend"],
+    project: "Social Network App",
+    languages: "https://github.com/quangnv0212/Social-network-mobile-app",
+    client: "1",
+    previewLink: "#",
+    previewName: "#",
+    desc: [
+      `**Features:**`,
+      `Source Code:`,
+      `**Description:** This is an online social network platform that offers users a wide range of features to connect, share, and engage with one another.`,
+      `**Features:**`,
+      `**Description:** This is an online social network platform that offers users a wide range of features to connect, share, and engage with one another.`,
+      
+      `- Authentication: The platform includes registration, login, and password recovery functionalities. `,
+      `- Users can post statuses, comment on posts, and like posts.`,
+      `- Real-time chat functionality is integrated using Socket.io.`,
+      `- Users have the ability to customize their avatar and cover photo displayed on their prole page. `,
+      `- Users can follow and be friend other users, fostering connections within the community.`,
+      `- The platform also oers dierent display options, including Dark mode and Light mode, to cater to individual preferences.`,
+      `Implementing Code Spliting for optimized performance.`,
+      `**Technologies:**`,
+      `**Frontend:** React Native CLI, React Query, React Hook Form`,
+      `**Backend:** NodeJS, ExpressJS, Mongoose.`,
+    ],
+  },
   {
     id: 1,
     class: "isotop-item logo",
