@@ -51,7 +51,7 @@ export default function PersonalInfoThree() {
           </div>
 
           <div className="bostami-parsonal-info-btn">
-            <a className="btn-2" href="/cv.pdf" download>
+            <a className="btn-2" href="#">
               <span style={{ color: "#fff" }} className="icon">
                 <i className="fa-regular fa-download"></i>
               </span>

@@ -23,5 +23,13 @@ export const education = [
     cardSubtitleSecondary: "Foreign Trade University",
     locatopn: "Hanoi, Vietnam",
   },
+  {
+    id: 4,
+    bgClass: "bg-prink",
+    session: "2022-present",
+    cardTitle: "Information Technology",
+    cardSubtitleSecondary: "Posts and Telecommunications Institute of Technology",
+    locatopn: "Hanoi, Vietnam",
+  },
 
 ];

@@ -1,4 +1,6 @@
 import blog1 from "./whyblockchain.md";
+import project from "./project.md";
+
 import blog2 from "./writing-an-erc-20-token-contract-a-comprehensive.md";
 import blog3 from "./creating-your-own-erc-721-token.md";
 import blog4 from "./building-an-nft-marketplace-smart-contract.md";
@@ -6,6 +8,16 @@ import blog5 from "./building-ico-smart-contract-step-step.md";
 import blog6 from "./decentralized-fundraising-with-ido-contracts.md";
 
 export const blogData = [
+  {
+    id: 100,
+    imgSrc:
+      "https://i.pinimg.com/564x/f0/ad/cf/f0adcfdc5a372181f4358be3cb330af2.jpg",
+    bgClass: "bg-catkrill",
+    date: "27 July",
+    category: "Blockchain",
+    title: "Why I Use Blockchain?",
+    desc: project,
+  },
   {
     id: 1,
     imgSrc:

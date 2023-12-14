@@ -21,14 +21,7 @@ export const items = [
     description:"Deployment to platforms such as Vercel, Netlify, and Cloudflare to leverage caching and firewalls at the edge.",
     bg: "bg-prink",
   },
-  // {
-  //   id: 4,
-  //   icon: "/assets/img/design.svg",
-  //   title: "Frontend Developer",
-  //   description:"Creating JAM Stack frontend applications that integrate with modern headless content management systems (CMS) like Contentful and payment APIs like Stripe",
-  //   bg: "bg-catkrill",
-  // },
-    {
+  {
     id: 4,
     icon: "/assets/img/design.svg",
     title: "Frontend Developer",
@@ -55,6 +48,13 @@ export const items = [
     title: "Blockchain Developer",
     description: "Build a Dapp using Solidity to provide transparency, security, and autonomy in delivering services and online interactions for users",
     bg: "bg-prink",
+  },
+  {
+    id: 8,
+    icon: "/assets/img/photograph.svg",
+    title: "Blockchain Developer",
+    description: "Build a mobile application using React Native to provide transparency, security, and autonomy in delivering services",
+    bg: "bg-catkrill",
   },
   // {
   //   id: 4,
