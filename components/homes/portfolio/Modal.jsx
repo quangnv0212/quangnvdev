@@ -47,24 +47,28 @@ export default function Modal({ modalContent, setModalContent }) {
                     Team Size : <span>{modalContent?.client}</span>
                   </h3>
                 </div>
-                {
-                 modalContent?.languages&&   <div className="col-md-6">
-                  <h3 className="portfolio-modal-table-text">
-                    <i className="fa-solid fa-code"></i>
-                    <Link href={modalContent?.languages||'#'}>Source Code</Link>
-                  </h3>
-                </div>
-                }
-     
+                {modalContent?.languages && (
+                  <div className="col-md-6">
+                    <h3 className="portfolio-modal-table-text">
+                      <i className="fa-solid fa-code"></i>
+                      <Link href={modalContent?.languages || "#"}>
+                        Source Code
+                      </Link>
+                    </h3>
+                  </div>
+                )}
+
                 <div className="col-md-6">
                   <h3 className="portfolio-modal-table-text">
                     <i className="fa-solid fa-arrow-up-right-from-square"></i>
-                    Preview : {<Link href={modalContent?.previewName||"#"}>
-                      {modalContent?.project}</Link>}
-  
+                    Preview :{" "}
+                    {
+                      <Link href={modalContent?.previewName || "#"}>
+                        {modalContent?.project}
+                      </Link>
+                    }
                   </h3>
                 </div>
-                
               </div>
             </div>
 
@@ -72,7 +76,11 @@ export default function Modal({ modalContent, setModalContent }) {
               {modalContent?.desc.map((elm, i) => (
                 <p key={i}>
                   <ReactMarkdown>{elm}</ReactMarkdown>
-                </p>              ))}
+                </p>
+              ))}
+              <div className="flex justify-center">
+                {modalContent?.imageList && modalContent?.imageList}
+              </div>
             </div>
             <div className="h1-modal-img">
               <Image

@@ -1,6 +1,5 @@
 export const bioData = {
-  descOne: `I'm a Web Developer
-    from Hanoi, working in web development. I enjoy
-    turning complex problems into simple, beautiful and intuitive designs.`,
-  descTwo: `My ambition is to specialize in JavaScript, taking on challenging assignments to improve performance, bring addedvalue to the company, and further my own development. I thrive in dynamic company environments and prefer to avoid passive and stagnant work settings. I anticipate opportunities to engage in numerous collaborative projects with international teams in the future.`,
+  descOne: `I am a lifelong learner with a clear goal: to become a Senior Web Developer by the age of 26. I am confident that my current knowledge and skills are sufficient to meet the demands of this role. With daily use of English, I can communicate effectively with clients and colleagues alike. I actively update my skills, keeping pace with new technologies and design patterns to continuously enhance my abilities.`,
+  descTwo: `I aspire to be an engineer, not just a frameworker. I am passionate about taking on challenging tasks to improve performance and add value to the company. I thrive in dynamic work environments and seek to avoid passive, stagnant settings. My ambition is to contribute to product quality while fostering a professional and progressive workplace.`,
+  descThree: `I am particularly eager to work extensively with international markets to help drive the company’s global expansion. By engaging in collaborative projects with international teams, I believe I can play a significant role in positioning the business on a global stage.`,
 };

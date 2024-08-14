@@ -22,6 +22,7 @@ export default function AboutOne() {
             <h2 className="page-title">about</h2>
             <p>{bioData.descOne}</p>
             <p>{bioData.descTwo}</p>
+            <p>{bioData.descThree}</p>
           </div>
         </div>
 
@@ -95,7 +96,7 @@ export default function AboutOne() {
                         <Image
                           height={62}
                           width={264}
-                          style={{ height:'62px',width:'fit-content'}}
+                          style={{ height: "62px", width: "fit-content" }}
                           className="bostami-client-slider-logo"
                           src={elm.imgSrc}
                           alt="client"
@@ -108,8 +109,6 @@ export default function AboutOne() {
             </div>
           </div>
         </div>
-
-
       </div>
     </div>
   );

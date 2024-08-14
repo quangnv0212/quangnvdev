@@ -43,9 +43,16 @@ export default function AboutTwo() {
           <div className="col-lg-8 col-md-12">
             <div className="mb-40 bostami-parsonal-info-wrap">
               <h4 className="bostami-parsonal-info-title">Who am i?</h4>
-              <p className="bostami-parsonal-info-bio-text">{bioData.descOne}</p>
+              <p className="bostami-parsonal-info-bio-text">
+                {bioData.descOne}
+              </p>
 
-              <p className="bostami-parsonal-info-bio-text">{bioData.descTwo}</p>
+              <p className="bostami-parsonal-info-bio-text">
+                {bioData.descTwo}
+              </p>
+              <p className="bostami-parsonal-info-bio-text">
+                {bioData.descThree}
+              </p>
 
               <div className="bostami-parsonal-info-contact">
                 <h3 className="title">Personal Info</h3>
@@ -150,7 +157,7 @@ export default function AboutTwo() {
                           <Image
                             height={62}
                             width={264}
-                            style={{ height:'62px',width:'fit-content'}}
+                            style={{ height: "62px", width: "fit-content" }}
                             className="bostami-client-slider-logo"
                             src={elm.imgSrc}
                             alt="client"
@@ -165,7 +172,6 @@ export default function AboutTwo() {
           </div>
         </div>
       </div>
-
     </div>
   );
 }

@@ -9,16 +9,6 @@ import blog6 from "./decentralized-fundraising-with-ido-contracts.md";
 
 export const blogData = [
   {
-    id: 100,
-    imgSrc:
-      "https://i.pinimg.com/564x/f0/ad/cf/f0adcfdc5a372181f4358be3cb330af2.jpg",
-    bgClass: "bg-catkrill",
-    date: "27 July",
-    category: "Blockchain",
-    title: "Why I Use Blockchain?",
-    desc: project,
-  },
-  {
     id: 1,
     imgSrc:
       "https://i.pinimg.com/564x/f0/ad/cf/f0adcfdc5a372181f4358be3cb330af2.jpg",
@@ -55,15 +45,7 @@ export const blogData = [
     title: "Building an NFT Marketplace Smart Contract",
     desc: blog4,
   },
-  {
-    id: 5,
-    imgSrc: "/assets/img/blog/ico.png",
-    bgClass: "bg-prink",
-    date: "15 July",
-    category: "Blockchain",
-    title: "Building an NFT Marketplace Smart Contract",
-    desc: blog4,
-  },
+
   {
     id: 6,
     imgSrc: "/assets/img/blog/ido.jpg",

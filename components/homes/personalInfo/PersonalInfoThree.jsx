@@ -3,25 +3,22 @@ import { profileInfo } from "@/data/profileInfo";
 import { socialMediaData } from "@/data/socials";
 import Image from "next/image";
 import React from "react";
-
+import AVATAR from "./avatar.jpg";
 export default function PersonalInfoThree() {
   return (
     <div className="col-xxl-4 col-xl-4 col-lg-4">
       <div className="bostami-parsonal-info-area">
         <div className="bostami-parsonal-info-wrap">
           <div className="bostami-parsonal-info-img">
-            <Image
-              width={240}
-              height={240}
-              src={profileInfo.imageSrcTwo}
-              alt="author"
-            />
+            <Image width={240} height={240} src={AVATAR} alt="author" />
           </div>
 
           <h4 className="bostami-parsonal-info-name">
             <a href="#">{profileInfo.name}</a>
           </h4>
-          <span className="bostami-parsonal-info-bio mb-15">{profileInfo.title}</span>
+          <span className="bostami-parsonal-info-bio mb-15">
+            {profileInfo.title}
+          </span>
 
           <ul className="bostami-parsonal-info-social-link mb-30">
             {socialMediaData.map((elm, i) => (
